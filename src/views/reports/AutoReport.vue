@@ -26,7 +26,6 @@
 <script>
 import FormioUtils from 'formiojs/utils'
 import html2pdf from 'html2pdf.js'
-//import '@/assets/styles/report.scss'
 
 import {
   CurrencyRender,
