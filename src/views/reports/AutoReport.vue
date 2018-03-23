@@ -26,6 +26,7 @@
 <script>
 import FormioUtils from 'formiojs/utils'
 import html2pdf from 'html2pdf.js'
+//import '@/assets/styles/report.scss'
 
 import {
   CurrencyRender,
@@ -92,7 +93,7 @@ export default {
 </script>
 
 <style lang="scss">
-label {
-  text-align: left !important;
-}
+@import '../../assets/styles/report.scss';
+
+
 </style>
