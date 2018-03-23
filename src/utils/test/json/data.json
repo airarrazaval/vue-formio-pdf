@@ -1,0 +1,72 @@
+{
+  "owner": "5a3981489768470001cce4ef",
+  "roles": [],
+  "_vid": 0,
+  "_fvid": 0,
+  "access": [],
+  "externalIds": [],
+  "created": "2018-02-28T13:17:13.697Z",
+  "_id": "5a96abd979461c70f6559fe9",
+  "data": {
+    "m2A1Assessment1SelectTheprogram": {
+      "owner": "5a3981489768470001cce4ef",
+      "roles": [],
+      "access": [],
+      "externalIds": [],
+      "created": "2018-02-28T13:03:09.936Z",
+      "_vid": 0,
+      "_fvid": 0,
+      "_id": "5a96a88d79461ce20a559fd2",
+      "data": {
+        "M1-programName": "Name",
+        "M1-programCountry": "Albania",
+        "M1-programLocation": "423",
+        "M1-assessmentFor": "group",
+        "M1-cropType": "",
+        "submit": true
+      },
+      "form": "5a8eaf90201d1800017427cb",
+      "modified": "2018-02-28T13:03:09.941Z"
+    },
+    "M2A1-sourceData": "Tempore est est ad eius eiusmod molestias vero perspiciatis laborum harum quia soluta qui voluptatem suscipit voluptate",
+    "M2A1-year": 1973,
+    "M2A1-dietaryAmount": 321321,
+    "M2A1-dietaryValue": 3213213,
+    "M2A1-CashAmount": 321321,
+    "M2A1-cashValue": 321312,
+    "M2A1-industrialAmount": 312312312,
+    "M2A1-industrialValue": 321312312,
+    "M2A1-exportAmount": 3213123213,
+    "M2A1-exportValue": 321312,
+    "M2A1-totalAmount": 312312312,
+    "M2A1-totalValue": 321321312,
+    "M2A1-assessment1Fieldset2Datagrid": [{
+      "M2A1-dietaryAmount1": 312312,
+      "M2A1-dietaryValue1": 312312,
+      "M2A1-cashAmount1": 312312312312312,
+      "M2A1-cashValue1": 312312312,
+      "M2A1-industrialAmount1": 312312312,
+      "M2A1-industrialValue1": 312312312,
+      "M2A1-exportAmount1": 3312312312,
+      "M2A1-exportValue1": 312312312312,
+      "M2A1-totalAmount1": 312312312,
+      "M2A1-totalValue1": 312312312312312,
+      "M2A1-productionArea1Name": "Austin Oneal"
+    }, {
+      "M2A1-dietaryAmount1": 312,
+      "M2A1-productionArea1Name": "321312312",
+      "M2A1-dietaryValue1": 312312,
+      "M2A1-cashAmount1": 312312,
+      "M2A1-cashValue1": 32164,
+      "M2A1-industrialAmount1": 65436345,
+      "M2A1-industrialValue1": 64536435,
+      "M2A1-exportAmount1": 6546345,
+      "M2A1-exportValue1": 64536345,
+      "M2A1-totalAmount1": 65436456543,
+      "M2A1-totalValue1": 65436345
+    }],
+    "submit": true
+  },
+  "form": "5a8eaf91201d1800017427ce",
+  "modified": "2018-02-28T13:17:13.698Z"
+}
