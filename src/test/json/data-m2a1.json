@@ -1,0 +1,56 @@
+{
+    "owner": "5a3981489768470001cce4ef",
+    "roles": [],
+    "_vid": 0,
+    "_fvid": 0,
+    "access": [],
+    "externalIds": [],
+    "created": "2018-03-26T09:13:08.026Z",
+    "_id": "5ab8b9a4b05b3016f2357c70",
+    "data": {
+        "m2A1-program": "Test Program",
+        "M2A1-sourceData": "FAO",
+        "M2A1-year": 2018,
+        "M2A1-dietaryAmount": 10,
+        "M2A1-dietaryValue": 10000,
+        "M2A1-CashAmount": 20,
+        "M2A1-cashValue": 20000,
+        "M2A1-industrialAmount": 30,
+        "M2A1-industrialValue": 30000,
+        "M2A1-exportAmount": 40,
+        "M2A1-exportValue": 40000,
+        "M2A1-totalAmount": 100,
+        "M2A1-totalValue": 100000,
+        "M2A1-assessment1Fieldset2Datagrid": [
+            {
+                "M2A1-productionArea1Name": "Rome, Italy",
+                "M2A1-dietaryAmount1": 10,
+                "M2A1-dietaryValue1": 10000,
+                "M2A1-cashAmount1": 10,
+                "M2A1-cashValue1": 10000,
+                "M2A1-industrialAmount1": 10,
+                "M2A1-industrialValue1": 10000,
+                "M2A1-exportAmount1": 10,
+                "M2A1-exportValue1": 10000,
+                "M2A1-totalAmount1": 40,
+                "M2A1-totalValue1": 40000
+            },
+            {
+                "M2A1-productionArea1Name": "Milan, Italy",
+                "M2A1-dietaryAmount1": 15,
+                "M2A1-dietaryValue1": 15000,
+                "M2A1-cashAmount1": 15,
+                "M2A1-cashValue1": 15000,
+                "M2A1-industrialAmount1": 15,
+                "M2A1-industrialValue1": 15000,
+                "M2A1-exportAmount1": 15,
+                "M2A1-exportValue1": 15000,
+                "M2A1-totalAmount1": 60,
+                "M2A1-totalValue1": 60000
+            }
+        ],
+        "submit": true
+    },
+    "form": "5ab89c910180ad6b746d6367",
+    "modified": "2018-03-26T09:20:40.970Z"
+}

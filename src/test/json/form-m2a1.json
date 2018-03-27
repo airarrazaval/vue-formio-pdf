@@ -1,0 +1,1189 @@
+{
+  "type": "resource",
+  "tags": [
+      "visible"
+  ],
+  "owner": "5ab8b55286214cb32e1dc709",
+  "components": [
+      {
+          "lockKey": true,
+          "properties": {
+              "": ""
+          },
+          "conditional": {
+              "show": "",
+              "when": null,
+              "eq": ""
+          },
+          "tags": [],
+          "breadcrumb": "default",
+          "type": "panel",
+          "tableView": false,
+          "theme": "success",
+          "title": "Module 2 - Analysis of crop value, delivery systems, breeding programs and unmet needs for plant materials",
+          "input": false,
+          "key": "M2A1-assessment1",
+          "components": [
+              {
+                  "customClass": "",
+                  "properties": {
+                      "": ""
+                  },
+                  "conditional": {
+                      "show": "",
+                      "when": null,
+                      "eq": ""
+                  },
+                  "tags": [],
+                  "type": "htmlelement",
+                  "content": "Assessment 1: Crop production, key production areas, uses of product and estimated value",
+                  "className": "",
+                  "attrs": [
+                      {
+                          "value": "",
+                          "attr": ""
+                      }
+                  ],
+                  "tag": "strong",
+                  "input": false,
+                  "key": "M2A1-assessment1Html",
+                  "lockKey": true,
+                  "hideLabel": false,
+                  "label": "Content",
+                  "isNew": false
+              },
+              {
+                  "autofocus": false,
+                  "input": true,
+                  "tableView": true,
+                  "label": "Select the program",
+                  "key": "m2A1-program",
+                  "placeholder": "",
+                  "data": {
+                      "values": [
+                          {
+                              "value": "",
+                              "label": ""
+                          }
+                      ],
+                      "json": "",
+                      "url": "",
+                      "resource": "5ab89c910180ad916c6d6364",
+                      "custom": "",
+                      "project": "khobsiuatxpwoyk"
+                  },
+                  "dataSrc": "resource",
+                  "valueProperty": "data.M1-programName",
+                  "defaultValue": "",
+                  "refreshOn": "",
+                  "filter": "",
+                  "authenticate": false,
+                  "template": "<span>{{ item.data['M1-programName'] }}</span>",
+                  "multiple": false,
+                  "protected": false,
+                  "unique": false,
+                  "persistent": true,
+                  "hidden": false,
+                  "clearOnHide": true,
+                  "validate": {
+                      "required": true
+                  },
+                  "type": "select",
+                  "labelPosition": "top",
+                  "tags": [],
+                  "conditional": {
+                      "show": "",
+                      "when": null,
+                      "eq": ""
+                  },
+                  "properties": {},
+                  "lockKey": true,
+                  "searchField": "data.M1-programName__regex",
+                  "reference": false
+              },
+              {
+                  "lockKey": true,
+                  "properties": {
+                      "": ""
+                  },
+                  "tags": [],
+                  "type": "textfield",
+                  "conditional": {
+                      "show": "",
+                      "when": null,
+                      "eq": ""
+                  },
+                  "validate": {
+                      "required": false,
+                      "minLength": "",
+                      "maxLength": "",
+                      "pattern": "",
+                      "custom": "",
+                      "customPrivate": false
+                  },
+                  "clearOnHide": true,
+                  "hidden": false,
+                  "persistent": true,
+                  "unique": false,
+                  "protected": false,
+                  "defaultValue": "",
+                  "multiple": false,
+                  "suffix": "",
+                  "prefix": "",
+                  "placeholder": "",
+                  "key": "M2A1-sourceData",
+                  "label": "Enter your source(s) for these data",
+                  "inputMask": "",
+                  "inputType": "text",
+                  "tableView": true,
+                  "input": true,
+                  "hideLabel": false,
+                  "autofocus": false,
+                  "spellcheck": true,
+                  "labelPosition": "top"
+              },
+              {
+                  "lockKey": true,
+                  "properties": {
+                      "": ""
+                  },
+                  "conditional": {
+                      "show": "",
+                      "when": null,
+                      "eq": ""
+                  },
+                  "tags": [],
+                  "type": "number",
+                  "validate": {
+                      "required": false,
+                      "min": 0,
+                      "max": "",
+                      "step": "any",
+                      "integer": "",
+                      "multiple": "",
+                      "custom": ""
+                  },
+                  "clearOnHide": true,
+                  "hidden": false,
+                  "persistent": true,
+                  "protected": false,
+                  "defaultValue": "",
+                  "suffix": "",
+                  "prefix": "",
+                  "placeholder": "",
+                  "key": "M2A1-year",
+                  "label": "Enter the year for these data (e.g. 2007)",
+                  "inputType": "number",
+                  "tableView": true,
+                  "input": true,
+                  "hideLabel": false,
+                  "autofocus": false,
+                  "labelPosition": "top"
+              },
+              {
+                  "key": "M2A1-assessment1Fieldset",
+                  "input": false,
+                  "tableView": false,
+                  "legend": "1. Estimate the total amount produced and value of this crop grown in this country for the following uses: Country Totals (MT is metric tons)",
+                  "type": "fieldset",
+                  "tags": [],
+                  "conditional": {
+                      "eq": "",
+                      "when": null,
+                      "show": ""
+                  },
+                  "properties": {
+                      "": ""
+                  },
+                  "lockKey": true,
+                  "components": [
+                      {
+                          "autofocus": false,
+                          "input": true,
+                          "tableView": true,
+                          "inputType": "number",
+                          "label": "Dietary Staple Amount",
+                          "key": "M2A1-dietaryAmount",
+                          "placeholder": "",
+                          "prefix": "",
+                          "suffix": "MT",
+                          "defaultValue": "",
+                          "protected": false,
+                          "persistent": true,
+                          "hidden": false,
+                          "clearOnHide": true,
+                          "validate": {
+                              "required": false,
+                              "min": "",
+                              "max": "",
+                              "step": "any",
+                              "integer": "",
+                              "multiple": "",
+                              "custom": ""
+                          },
+                          "type": "number",
+                          "labelPosition": "top",
+                          "tags": [],
+                          "conditional": {
+                              "show": "",
+                              "when": null,
+                              "eq": ""
+                          },
+                          "properties": {},
+                          "lockKey": true
+                      },
+                      {
+                          "input": true,
+                          "tableView": true,
+                          "inputType": "text",
+                          "inputMask": "",
+                          "label": "Dietary Staple Value",
+                          "key": "M2A1-dietaryValue",
+                          "placeholder": "",
+                          "prefix": "USD$",
+                          "suffix": "",
+                          "defaultValue": "",
+                          "protected": false,
+                          "persistent": true,
+                          "hidden": false,
+                          "clearOnHide": true,
+                          "validate": {
+                              "custom": "",
+                              "multiple": "",
+                              "required": false
+                          },
+                          "conditional": {
+                              "eq": "",
+                              "when": null,
+                              "show": ""
+                          },
+                          "type": "currency",
+                          "tags": [],
+                          "properties": {
+                              "": ""
+                          },
+                          "lockKey": true,
+                          "hideLabel": false,
+                          "autofocus": false,
+                          "delimiter": true,
+                          "labelPosition": "top"
+                      },
+                      {
+                          "autofocus": false,
+                          "input": true,
+                          "tableView": true,
+                          "inputType": "number",
+                          "label": "Internal/Cash Amount",
+                          "key": "M2A1-CashAmount",
+                          "placeholder": "",
+                          "prefix": "",
+                          "suffix": "MT",
+                          "defaultValue": "",
+                          "protected": false,
+                          "persistent": true,
+                          "hidden": false,
+                          "clearOnHide": true,
+                          "validate": {
+                              "required": false,
+                              "min": "",
+                              "max": "",
+                              "step": "any",
+                              "integer": "",
+                              "multiple": "",
+                              "custom": ""
+                          },
+                          "type": "number",
+                          "labelPosition": "top",
+                          "tags": [],
+                          "conditional": {
+                              "show": "",
+                              "when": null,
+                              "eq": ""
+                          },
+                          "properties": {},
+                          "lockKey": true
+                      },
+                      {
+                          "input": true,
+                          "tableView": true,
+                          "inputType": "text",
+                          "inputMask": "",
+                          "label": "Internal/Cash Value",
+                          "key": "M2A1-cashValue",
+                          "placeholder": "",
+                          "prefix": "USD$",
+                          "suffix": "",
+                          "defaultValue": "",
+                          "protected": false,
+                          "persistent": true,
+                          "hidden": false,
+                          "clearOnHide": true,
+                          "validate": {
+                              "custom": "",
+                              "multiple": "",
+                              "required": false
+                          },
+                          "conditional": {
+                              "eq": "",
+                              "when": null,
+                              "show": ""
+                          },
+                          "type": "currency",
+                          "tags": [],
+                          "properties": {
+                              "": ""
+                          },
+                          "lockKey": true,
+                          "hideLabel": false,
+                          "autofocus": false,
+                          "delimiter": true,
+                          "labelPosition": "top"
+                      },
+                      {
+                          "autofocus": false,
+                          "input": true,
+                          "tableView": true,
+                          "inputType": "number",
+                          "label": "Internal/Industrial Amount",
+                          "key": "M2A1-industrialAmount",
+                          "placeholder": "",
+                          "prefix": "",
+                          "suffix": "MT",
+                          "defaultValue": "",
+                          "protected": false,
+                          "persistent": true,
+                          "hidden": false,
+                          "clearOnHide": true,
+                          "validate": {
+                              "required": false,
+                              "min": "",
+                              "max": "",
+                              "step": "any",
+                              "integer": "",
+                              "multiple": "",
+                              "custom": ""
+                          },
+                          "type": "number",
+                          "labelPosition": "top",
+                          "tags": [],
+                          "conditional": {
+                              "show": "",
+                              "when": null,
+                              "eq": ""
+                          },
+                          "properties": {},
+                          "lockKey": true
+                      },
+                      {
+                          "input": true,
+                          "tableView": true,
+                          "inputType": "text",
+                          "inputMask": "",
+                          "label": "Internal/Industrial Value",
+                          "key": "M2A1-industrialValue",
+                          "placeholder": "",
+                          "prefix": "USD$",
+                          "suffix": "",
+                          "defaultValue": "",
+                          "protected": false,
+                          "persistent": true,
+                          "hidden": false,
+                          "clearOnHide": true,
+                          "validate": {
+                              "custom": "",
+                              "multiple": "",
+                              "required": false
+                          },
+                          "conditional": {
+                              "eq": "",
+                              "when": null,
+                              "show": ""
+                          },
+                          "type": "currency",
+                          "tags": [],
+                          "properties": {
+                              "": ""
+                          },
+                          "lockKey": true,
+                          "hideLabel": false,
+                          "autofocus": false,
+                          "delimiter": true,
+                          "labelPosition": "top"
+                      },
+                      {
+                          "autofocus": false,
+                          "input": true,
+                          "tableView": true,
+                          "inputType": "number",
+                          "label": "Export Amount",
+                          "key": "M2A1-exportAmount",
+                          "placeholder": "",
+                          "prefix": "",
+                          "suffix": "MT",
+                          "defaultValue": "",
+                          "protected": false,
+                          "persistent": true,
+                          "hidden": false,
+                          "clearOnHide": true,
+                          "validate": {
+                              "required": false,
+                              "min": "",
+                              "max": "",
+                              "step": "any",
+                              "integer": "",
+                              "multiple": "",
+                              "custom": ""
+                          },
+                          "type": "number",
+                          "labelPosition": "top",
+                          "tags": [],
+                          "conditional": {
+                              "show": "",
+                              "when": null,
+                              "eq": ""
+                          },
+                          "properties": {},
+                          "lockKey": true
+                      },
+                      {
+                          "lockKey": true,
+                          "properties": {
+                              "": ""
+                          },
+                          "tags": [],
+                          "type": "currency",
+                          "conditional": {
+                              "show": "",
+                              "when": null,
+                              "eq": ""
+                          },
+                          "validate": {
+                              "required": false,
+                              "multiple": "",
+                              "custom": ""
+                          },
+                          "clearOnHide": true,
+                          "hidden": false,
+                          "persistent": true,
+                          "protected": false,
+                          "defaultValue": "",
+                          "suffix": "",
+                          "prefix": "USD$",
+                          "placeholder": "",
+                          "key": "M2A1-exportValue",
+                          "label": "Export Value",
+                          "inputMask": "",
+                          "inputType": "text",
+                          "tableView": true,
+                          "input": true,
+                          "hideLabel": false,
+                          "autofocus": false,
+                          "delimiter": true,
+                          "labelPosition": "top"
+                      },
+                      {
+                          "autofocus": false,
+                          "input": true,
+                          "tableView": true,
+                          "inputType": "number",
+                          "label": "Total Amount",
+                          "key": "M2A1-totalAmount",
+                          "placeholder": "",
+                          "prefix": "",
+                          "suffix": "MT",
+                          "defaultValue": "",
+                          "protected": false,
+                          "persistent": true,
+                          "hidden": false,
+                          "clearOnHide": true,
+                          "validate": {
+                              "required": false,
+                              "min": "",
+                              "max": "",
+                              "step": "any",
+                              "integer": "",
+                              "multiple": "",
+                              "custom": ""
+                          },
+                          "type": "number",
+                          "labelPosition": "top",
+                          "tags": [],
+                          "conditional": {
+                              "show": "",
+                              "when": null,
+                              "eq": ""
+                          },
+                          "properties": {},
+                          "lockKey": true
+                      },
+                      {
+                          "lockKey": true,
+                          "properties": {
+                              "": ""
+                          },
+                          "tags": [],
+                          "type": "currency",
+                          "conditional": {
+                              "show": "",
+                              "when": null,
+                              "eq": ""
+                          },
+                          "validate": {
+                              "required": false,
+                              "multiple": "",
+                              "custom": ""
+                          },
+                          "clearOnHide": true,
+                          "hidden": false,
+                          "persistent": true,
+                          "protected": false,
+                          "defaultValue": "",
+                          "suffix": "",
+                          "prefix": "USD$",
+                          "placeholder": "",
+                          "key": "M2A1-totalValue",
+                          "label": "Total Value",
+                          "inputMask": "",
+                          "inputType": "text",
+                          "tableView": true,
+                          "input": true,
+                          "hideLabel": false,
+                          "autofocus": false,
+                          "delimiter": true,
+                          "labelPosition": "top"
+                      }
+                  ],
+                  "clearOnHide": false,
+                  "hideLabel": false
+              },
+              {
+                  "lockKey": true,
+                  "key": "M2A1-assessment1Fieldset2",
+                  "input": false,
+                  "tableView": true,
+                  "legend": "2. For each of the following key production areas/regions within this country, estimate the total amount produced and value of this crop grown for the following uses (please specify as many individual areas, or regions, such as \"Njoro, Kenya\" that you will be using throughout your assessments):",
+                  "type": "fieldset",
+                  "tags": [],
+                  "conditional": {
+                      "eq": "",
+                      "when": null,
+                      "show": ""
+                  },
+                  "properties": {
+                      "": ""
+                  },
+                  "components": [
+                      {
+                          "lockKey": true,
+                          "bordered": true,
+                          "striped": true,
+                          "properties": {
+                              "": ""
+                          },
+                          "conditional": {
+                              "show": "",
+                              "when": null,
+                              "eq": ""
+                          },
+                          "tags": [],
+                          "type": "datagrid",
+                          "clearOnHide": true,
+                          "hidden": false,
+                          "persistent": true,
+                          "protected": false,
+                          "key": "M2A1-assessment1Fieldset2Datagrid",
+                          "label": "",
+                          "tableView": false,
+                          "tree": true,
+                          "input": true,
+                          "components": [
+                              {
+                                  "hideLabel": true,
+                                  "input": true,
+                                  "tableView": false,
+                                  "inputType": "text",
+                                  "inputMask": "",
+                                  "label": "Key Production Area/Region # Name?",
+                                  "key": "M2A1-productionArea1Name",
+                                  "placeholder": "",
+                                  "prefix": "",
+                                  "suffix": "",
+                                  "multiple": false,
+                                  "defaultValue": "",
+                                  "protected": false,
+                                  "unique": false,
+                                  "persistent": true,
+                                  "hidden": false,
+                                  "clearOnHide": true,
+                                  "validate": {
+                                      "customPrivate": false,
+                                      "custom": "",
+                                      "pattern": "",
+                                      "maxLength": "",
+                                      "minLength": "",
+                                      "required": false
+                                  },
+                                  "conditional": {
+                                      "eq": "",
+                                      "when": null,
+                                      "show": ""
+                                  },
+                                  "type": "textfield",
+                                  "tags": [],
+                                  "properties": {
+                                      "": ""
+                                  },
+                                  "lockKey": true,
+                                  "inDataGrid": true,
+                                  "autofocus": false,
+                                  "spellcheck": true,
+                                  "labelPosition": "top"
+                              },
+                              {
+                                  "autofocus": false,
+                                  "input": true,
+                                  "tableView": true,
+                                  "inputType": "number",
+                                  "label": "Dietary Staple Amount",
+                                  "key": "M2A1-dietaryAmount1",
+                                  "placeholder": "",
+                                  "prefix": "",
+                                  "suffix": "MT",
+                                  "defaultValue": "",
+                                  "protected": false,
+                                  "persistent": true,
+                                  "hidden": false,
+                                  "clearOnHide": true,
+                                  "validate": {
+                                      "required": false,
+                                      "min": "",
+                                      "max": "",
+                                      "step": "any",
+                                      "integer": "",
+                                      "multiple": "",
+                                      "custom": ""
+                                  },
+                                  "type": "number",
+                                  "labelPosition": "top",
+                                  "tags": [],
+                                  "conditional": {
+                                      "show": "",
+                                      "when": null,
+                                      "eq": ""
+                                  },
+                                  "properties": {},
+                                  "lockKey": true,
+                                  "inDataGrid": true
+                              },
+                              {
+                                  "lockKey": true,
+                                  "properties": {
+                                      "": ""
+                                  },
+                                  "tags": [],
+                                  "hideLabel": true,
+                                  "type": "currency",
+                                  "conditional": {
+                                      "show": "",
+                                      "when": null,
+                                      "eq": ""
+                                  },
+                                  "validate": {
+                                      "required": false,
+                                      "multiple": "",
+                                      "custom": ""
+                                  },
+                                  "clearOnHide": true,
+                                  "hidden": false,
+                                  "persistent": true,
+                                  "protected": false,
+                                  "defaultValue": "",
+                                  "suffix": "",
+                                  "prefix": "USD$",
+                                  "placeholder": "",
+                                  "key": "M2A1-dietaryValue1",
+                                  "label": "Dietary Staple Value",
+                                  "inputMask": "",
+                                  "inputType": "text",
+                                  "tableView": false,
+                                  "input": true,
+                                  "inDataGrid": true,
+                                  "autofocus": false,
+                                  "delimiter": true,
+                                  "labelPosition": "top"
+                              },
+                              {
+                                  "autofocus": false,
+                                  "input": true,
+                                  "tableView": true,
+                                  "inputType": "number",
+                                  "label": "Internal/Cash Amount",
+                                  "key": "M2A1-cashAmount1",
+                                  "placeholder": "",
+                                  "prefix": "",
+                                  "suffix": "MT",
+                                  "defaultValue": "",
+                                  "protected": false,
+                                  "persistent": true,
+                                  "hidden": false,
+                                  "clearOnHide": true,
+                                  "validate": {
+                                      "required": false,
+                                      "min": "",
+                                      "max": "",
+                                      "step": "any",
+                                      "integer": "",
+                                      "multiple": "",
+                                      "custom": ""
+                                  },
+                                  "type": "number",
+                                  "labelPosition": "top",
+                                  "tags": [],
+                                  "conditional": {
+                                      "show": "",
+                                      "when": null,
+                                      "eq": ""
+                                  },
+                                  "properties": {},
+                                  "lockKey": true,
+                                  "inDataGrid": true
+                              },
+                              {
+                                  "hideLabel": true,
+                                  "input": true,
+                                  "tableView": false,
+                                  "inputType": "text",
+                                  "inputMask": "",
+                                  "label": "Internal/Cash Value",
+                                  "key": "M2A1-cashValue1",
+                                  "placeholder": "",
+                                  "prefix": "USD$",
+                                  "suffix": "",
+                                  "defaultValue": "",
+                                  "protected": false,
+                                  "persistent": true,
+                                  "hidden": false,
+                                  "clearOnHide": true,
+                                  "validate": {
+                                      "custom": "",
+                                      "multiple": "",
+                                      "required": false
+                                  },
+                                  "conditional": {
+                                      "eq": "",
+                                      "when": null,
+                                      "show": ""
+                                  },
+                                  "type": "currency",
+                                  "tags": [],
+                                  "properties": {
+                                      "": ""
+                                  },
+                                  "lockKey": true,
+                                  "inDataGrid": true,
+                                  "autofocus": false,
+                                  "delimiter": true,
+                                  "labelPosition": "top"
+                              },
+                              {
+                                  "autofocus": false,
+                                  "input": true,
+                                  "tableView": true,
+                                  "inputType": "number",
+                                  "label": "Internal/Industrial Amount",
+                                  "key": "M2A1-industrialAmount1",
+                                  "placeholder": "",
+                                  "prefix": "",
+                                  "suffix": "MT",
+                                  "defaultValue": "",
+                                  "protected": false,
+                                  "persistent": true,
+                                  "hidden": false,
+                                  "clearOnHide": true,
+                                  "validate": {
+                                      "required": false,
+                                      "min": "",
+                                      "max": "",
+                                      "step": "any",
+                                      "integer": "",
+                                      "multiple": "",
+                                      "custom": ""
+                                  },
+                                  "type": "number",
+                                  "labelPosition": "top",
+                                  "tags": [],
+                                  "conditional": {
+                                      "show": "",
+                                      "when": null,
+                                      "eq": ""
+                                  },
+                                  "properties": {},
+                                  "lockKey": true,
+                                  "inDataGrid": true
+                              },
+                              {
+                                  "hideLabel": true,
+                                  "input": true,
+                                  "tableView": false,
+                                  "inputType": "text",
+                                  "inputMask": "",
+                                  "label": "Internal/Industrial Value",
+                                  "key": "M2A1-industrialValue1",
+                                  "placeholder": "",
+                                  "prefix": "USD$",
+                                  "suffix": "",
+                                  "defaultValue": "",
+                                  "protected": false,
+                                  "persistent": true,
+                                  "hidden": false,
+                                  "clearOnHide": true,
+                                  "validate": {
+                                      "custom": "",
+                                      "multiple": "",
+                                      "required": false
+                                  },
+                                  "conditional": {
+                                      "eq": "",
+                                      "when": null,
+                                      "show": ""
+                                  },
+                                  "type": "currency",
+                                  "tags": [],
+                                  "properties": {
+                                      "": ""
+                                  },
+                                  "lockKey": true,
+                                  "inDataGrid": true,
+                                  "autofocus": false,
+                                  "delimiter": true,
+                                  "labelPosition": "top"
+                              },
+                              {
+                                  "autofocus": false,
+                                  "input": true,
+                                  "tableView": true,
+                                  "inputType": "number",
+                                  "label": "Export Amount",
+                                  "key": "M2A1-exportAmount1",
+                                  "placeholder": "",
+                                  "prefix": "",
+                                  "suffix": "MT",
+                                  "defaultValue": "",
+                                  "protected": false,
+                                  "persistent": true,
+                                  "hidden": false,
+                                  "clearOnHide": true,
+                                  "validate": {
+                                      "required": false,
+                                      "min": "",
+                                      "max": "",
+                                      "step": "any",
+                                      "integer": "",
+                                      "multiple": "",
+                                      "custom": ""
+                                  },
+                                  "type": "number",
+                                  "inDataGrid": true,
+                                  "labelPosition": "top",
+                                  "tags": [],
+                                  "conditional": {
+                                      "show": "",
+                                      "when": null,
+                                      "eq": ""
+                                  },
+                                  "properties": {},
+                                  "lockKey": true
+                              },
+                              {
+                                  "lockKey": true,
+                                  "properties": {
+                                      "": ""
+                                  },
+                                  "tags": [],
+                                  "hideLabel": true,
+                                  "type": "currency",
+                                  "conditional": {
+                                      "show": "",
+                                      "when": null,
+                                      "eq": ""
+                                  },
+                                  "validate": {
+                                      "required": false,
+                                      "multiple": "",
+                                      "custom": ""
+                                  },
+                                  "clearOnHide": true,
+                                  "hidden": false,
+                                  "persistent": true,
+                                  "protected": false,
+                                  "defaultValue": "",
+                                  "suffix": "",
+                                  "prefix": "USD$",
+                                  "placeholder": "",
+                                  "key": "M2A1-exportValue1",
+                                  "label": "Export Value",
+                                  "inputMask": "",
+                                  "inputType": "text",
+                                  "tableView": false,
+                                  "input": true,
+                                  "inDataGrid": true,
+                                  "autofocus": false,
+                                  "delimiter": true,
+                                  "labelPosition": "top"
+                              },
+                              {
+                                  "autofocus": false,
+                                  "input": true,
+                                  "tableView": true,
+                                  "inputType": "number",
+                                  "label": "Total Amount",
+                                  "key": "M2A1-totalAmount1",
+                                  "placeholder": "",
+                                  "prefix": "",
+                                  "suffix": "MT",
+                                  "defaultValue": "",
+                                  "protected": false,
+                                  "persistent": true,
+                                  "hidden": false,
+                                  "clearOnHide": true,
+                                  "validate": {
+                                      "required": false,
+                                      "min": "",
+                                      "max": "",
+                                      "step": "any",
+                                      "integer": "",
+                                      "multiple": "",
+                                      "custom": ""
+                                  },
+                                  "type": "number",
+                                  "labelPosition": "top",
+                                  "tags": [],
+                                  "conditional": {
+                                      "show": "",
+                                      "when": null,
+                                      "eq": ""
+                                  },
+                                  "properties": {},
+                                  "lockKey": true,
+                                  "inDataGrid": true
+                              },
+                              {
+                                  "lockKey": true,
+                                  "properties": {
+                                      "": ""
+                                  },
+                                  "tags": [],
+                                  "hideLabel": true,
+                                  "type": "currency",
+                                  "conditional": {
+                                      "show": "",
+                                      "when": null,
+                                      "eq": ""
+                                  },
+                                  "validate": {
+                                      "required": false,
+                                      "multiple": "",
+                                      "custom": ""
+                                  },
+                                  "clearOnHide": true,
+                                  "hidden": false,
+                                  "persistent": true,
+                                  "protected": false,
+                                  "defaultValue": "",
+                                  "suffix": "",
+                                  "prefix": "USD$",
+                                  "placeholder": "",
+                                  "key": "M2A1-totalValue1",
+                                  "label": "Total Value",
+                                  "inputMask": "",
+                                  "inputType": "text",
+                                  "tableView": false,
+                                  "input": true,
+                                  "inDataGrid": true,
+                                  "autofocus": false,
+                                  "delimiter": true,
+                                  "labelPosition": "top"
+                              }
+                          ],
+                          "hideLabel": false,
+                          "autofocus": false,
+                          "addAnotherPosition": "bottom"
+                      }
+                  ],
+                  "clearOnHide": false,
+                  "hideLabel": false
+              }
+          ],
+          "clearOnHide": false,
+          "hideLabel": false
+      },
+      {
+          "input": true,
+          "label": "Save as Draft",
+          "tableView": false,
+          "key": "saveasDraft",
+          "size": "md",
+          "leftIcon": "",
+          "rightIcon": "",
+          "block": false,
+          "action": "custom",
+          "disableOnInvalid": false,
+          "theme": "default",
+          "type": "button",
+          "tags": [],
+          "conditional": {
+              "show": "",
+              "when": null,
+              "eq": ""
+          },
+          "properties": {
+              "": ""
+          },
+          "customClass": "saveAsDraft pull-right",
+          "custom": "saveAsDraft(data)",
+          "hideLabel": false,
+          "autofocus": false
+      },
+      {
+          "type": "button",
+          "theme": "primary",
+          "disableOnInvalid": false,
+          "action": "submit",
+          "block": false,
+          "rightIcon": "",
+          "leftIcon": "",
+          "size": "md",
+          "key": "submit",
+          "tableView": false,
+          "label": "Submit",
+          "input": true,
+          "tags": [],
+          "conditional": {
+              "show": "",
+              "when": null,
+              "eq": ""
+          },
+          "properties": {
+              "": ""
+          },
+          "customClass": "submitForm",
+          "hideLabel": false,
+          "autofocus": false
+      }
+  ],
+  "revisions": "",
+  "_vid": 0,
+  "access": [
+      {
+          "roles": [],
+          "type": "create_all"
+      },
+      {
+          "roles": [
+              "5ab89c910180ad2c116d635e",
+              "5ab89c910180ad75466d635f",
+              "5ab89c910180ad754f6d6360"
+          ],
+          "type": "read_all"
+      },
+      {
+          "roles": [],
+          "type": "update_all"
+      },
+      {
+          "roles": [],
+          "type": "delete_all"
+      },
+      {
+          "roles": [],
+          "type": "create_own"
+      },
+      {
+          "roles": [],
+          "type": "read_own"
+      },
+      {
+          "roles": [],
+          "type": "update_own"
+      },
+      {
+          "roles": [],
+          "type": "delete_own"
+      },
+      {
+          "roles": [],
+          "type": "team_read"
+      },
+      {
+          "roles": [],
+          "type": "team_write"
+      },
+      {
+          "roles": [],
+          "type": "team_admin"
+      }
+  ],
+  "submissionAccess": [
+      {
+          "roles": [],
+          "type": "create_all"
+      },
+      {
+          "roles": [],
+          "type": "read_all"
+      },
+      {
+          "roles": [],
+          "type": "update_all"
+      },
+      {
+          "roles": [],
+          "type": "delete_all"
+      },
+      {
+          "roles": [
+              "5ab89c910180ad75466d635f"
+          ],
+          "type": "create_own"
+      },
+      {
+          "roles": [
+              "5ab89c910180ad75466d635f"
+          ],
+          "type": "read_own"
+      },
+      {
+          "roles": [
+              "5ab89c910180ad75466d635f"
+          ],
+          "type": "update_own"
+      },
+      {
+          "roles": [
+              "5ab89c910180ad75466d635f"
+          ],
+          "type": "delete_own"
+      },
+      {
+          "roles": [],
+          "type": "team_read"
+      },
+      {
+          "roles": [],
+          "type": "team_write"
+      },
+      {
+          "roles": [],
+          "type": "team_admin"
+      }
+  ],
+  "created": "2018-03-26T07:09:05.348Z",
+  "_id": "5ab89c910180ad6b746d6367",
+  "title": "2. Assessment 1",
+  "name": "M2A1Assessment1",
+  "path": "m2a1assessment1",
+  "display": "form",
+  "machineName": "khobsiuatxpwoyk:Assessment1",
+  "project": "5ab89c910180ad282a6d635d",
+  "modified": "2018-03-26T09:47:30.383Z"
+}

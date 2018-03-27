@@ -1,0 +1,18 @@
+{{#if hideLabel}}
+<p>
+  {{ prefix }} {{ value }} {{ suffix }}
+</p>
+{{else}}
+<div class="form-horizontal">
+  <div class="form-group">
+      <label for="{{key}}" class="col-sm-4 control-label">
+        <strong>{{ label }}</strong>
+      </label>
+      <div class="col-sm-8">
+        <span id="{{key}}" class="form-control">
+          {{ prefix }} {{ value }} {{ suffix }}
+        </span>
+      </div>
+  </div>
+</div>
+{{/if}}

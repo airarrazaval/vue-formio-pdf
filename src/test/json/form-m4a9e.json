@@ -1,0 +1,390 @@
+{
+  "type": "resource",
+  "tags": [
+      "visible"
+  ],
+  "owner": "5ab8bfdc86214c37ac1dc762",
+  "components": [
+      {
+          "key": "M4A9e-assessment9e",
+          "input": false,
+          "title": "Module  4 : Plant breeding program activities, accomplishments and opportunities",
+          "theme": "danger",
+          "tableView": false,
+          "components": [
+              {
+                  "lockKey": true,
+                  "key": "M4A9e-assessment9eHtml",
+                  "input": false,
+                  "tag": "strong",
+                  "attrs": [
+                      {
+                          "value": "",
+                          "attr": ""
+                      }
+                  ],
+                  "className": "",
+                  "content": "Assessment 9e :Delivery of new cultivars to users",
+                  "type": "htmlelement",
+                  "tags": [],
+                  "conditional": {
+                      "show": "",
+                      "when": null,
+                      "eq": ""
+                  },
+                  "properties": {
+                      "": ""
+                  },
+                  "label": "Content",
+                  "hideLabel": true
+              },
+              {
+                  "input": true,
+                  "tableView": true,
+                  "label": "Please select your program",
+                  "key": "M4A9e-program",
+                  "placeholder": "",
+                  "data": {
+                      "values": [
+                          {
+                              "value": "",
+                              "label": ""
+                          }
+                      ],
+                      "json": "",
+                      "url": "",
+                      "resource": "5ab89c910180ad916c6d6364",
+                      "custom": "",
+                      "project": "khobsiuatxpwoyk"
+                  },
+                  "dataSrc": "resource",
+                  "valueProperty": "data.M1-programName",
+                  "defaultValue": "",
+                  "refreshOn": "",
+                  "filter": "",
+                  "authenticate": false,
+                  "template": "<span>{{ item.data['M1-programName'] }}</span>",
+                  "multiple": false,
+                  "protected": false,
+                  "unique": false,
+                  "persistent": true,
+                  "hidden": false,
+                  "clearOnHide": true,
+                  "validate": {
+                      "required": true
+                  },
+                  "type": "select",
+                  "tags": [],
+                  "conditional": {
+                      "show": "",
+                      "when": null,
+                      "eq": ""
+                  },
+                  "properties": {
+                      "": ""
+                  },
+                  "lockKey": true,
+                  "autofocus": false,
+                  "labelPosition": "top",
+                  "searchField": "data.M1-programName__regex"
+              },
+              {
+                  "lockKey": true,
+                  "key": "M4A9e-assessment9eFieldset",
+                  "input": false,
+                  "tableView": true,
+                  "legend": "1. Breeding Materials Delivery to user",
+                  "components": [
+                      {
+                          "input": true,
+                          "tableView": true,
+                          "inputType": "text",
+                          "inputMask": "",
+                          "label": "1. Who is responsible for making the final decision to release a new cultivar from the breeding program for commercial distribution and use?",
+                          "key": "M4A9e-responsible",
+                          "placeholder": "",
+                          "prefix": "",
+                          "suffix": "",
+                          "multiple": false,
+                          "defaultValue": "",
+                          "protected": false,
+                          "unique": false,
+                          "persistent": true,
+                          "hidden": false,
+                          "clearOnHide": true,
+                          "validate": {
+                              "required": false,
+                              "minLength": "",
+                              "maxLength": "",
+                              "pattern": "",
+                              "custom": "",
+                              "customPrivate": false
+                          },
+                          "conditional": {
+                              "show": "",
+                              "when": null,
+                              "eq": ""
+                          },
+                          "type": "textfield",
+                          "tags": [],
+                          "properties": {
+                              "": ""
+                          },
+                          "lockKey": true,
+                          "autofocus": false,
+                          "spellcheck": true
+                      },
+                      {
+                          "lockKey": true,
+                          "conditional": {
+                              "eq": "",
+                              "when": null,
+                              "show": ""
+                          },
+                          "type": "selectboxes",
+                          "validate": {
+                              "required": false
+                          },
+                          "clearOnHide": true,
+                          "hidden": false,
+                          "persistent": true,
+                          "protected": false,
+                          "inline": false,
+                          "values": [
+                              {
+                                  "label": "a.) Number and locations of field performance trials?",
+                                  "value": "aNumberAndLocationsOfFieldPerformanceTrials"
+                              },
+                              {
+                                  "label": "b.) Verification of performance, identity, trueness-to-type etc. by a governmental agency or unit?",
+                                  "value": "bVerificationOfPerformanceIdentityTruenessToTypeEtcByAGovernmentalAgencyOrUnit"
+                              },
+                              {
+                                  "label": "c.) Plans for build-up of Foundation, stock seed, cuttings etc. from breeders’ materials?",
+                                  "value": "cPlansForBuildUpOfFoundationStockSeedCuttingsEtcFromBreedersMaterials"
+                              },
+                              {
+                                  "label": "d.) Plans for distribution (advertising, marketing, give-away, sale etc. of commercial planting materials?",
+                                  "value": "dPlansForDistributionAdvertisingMarketingGiveAwaySaleEtcOfCommercialPlantingMaterials"
+                              }
+                          ],
+                          "key": "M4A9e-newCultivarisInfo",
+                          "label": "2. What information about a new cultivar is required in order for it to be considered for release?",
+                          "tableView": true,
+                          "input": true,
+                          "autofocus": false
+                      },
+                      {
+                          "lockKey": true,
+                          "properties": {
+                              "": ""
+                          },
+                          "tags": [],
+                          "type": "textfield",
+                          "conditional": {
+                              "eq": "",
+                              "when": null,
+                              "show": ""
+                          },
+                          "validate": {
+                              "customPrivate": false,
+                              "custom": "",
+                              "pattern": "",
+                              "maxLength": "",
+                              "minLength": "",
+                              "required": false
+                          },
+                          "clearOnHide": true,
+                          "hidden": false,
+                          "persistent": true,
+                          "unique": false,
+                          "protected": false,
+                          "defaultValue": "",
+                          "multiple": false,
+                          "suffix": "",
+                          "prefix": "",
+                          "placeholder": "",
+                          "key": "M4A9e-other",
+                          "label": "e.) Other?",
+                          "inputMask": "",
+                          "inputType": "text",
+                          "tableView": true,
+                          "input": true,
+                          "autofocus": false,
+                          "spellcheck": true
+                      },
+                      {
+                          "lockKey": true,
+                          "properties": {
+                              "": ""
+                          },
+                          "conditional": {
+                              "eq": "",
+                              "when": null,
+                              "show": ""
+                          },
+                          "tags": [],
+                          "type": "textarea",
+                          "validate": {
+                              "custom": "",
+                              "pattern": "",
+                              "maxLength": "",
+                              "minLength": "",
+                              "required": false
+                          },
+                          "clearOnHide": true,
+                          "wysiwyg": false,
+                          "hidden": false,
+                          "persistent": true,
+                          "protected": false,
+                          "defaultValue": "",
+                          "multiple": false,
+                          "rows": 3,
+                          "suffix": "",
+                          "prefix": "",
+                          "placeholder": "",
+                          "key": "M4A9e-usualSystemsProcedure",
+                          "label": "3. What is/are the usual system(s)/procedure(s) used to distribute planting materials of cultivars developed and released by this breeding program? Examples: Gov’t. (state or national) seed distribution network, university-foundation seed organization, commercial company/distributor, NGO’s, etc.",
+                          "tableView": true,
+                          "input": true,
+                          "autofocus": false,
+                          "spellcheck": true
+                      },
+                      {
+                          "input": true,
+                          "tableView": true,
+                          "label": "4. How well is this breeding program linked to a method of distribution for efficiency and effective provision of new materials to farmers?",
+                          "key": "M4A9e-breedingProgramLinked",
+                          "values": [
+                              {
+                                  "value": "aAreCultivarReleasesDoneInATimelyEffectiveManner",
+                                  "label": "a.) Are cultivar releases done in a timely, effective manner?"
+                              },
+                              {
+                                  "value": "bAreUsersSatisfiedWithTheDeliverySystem",
+                                  "label": "b.) Are users satisfied with the delivery system?"
+                              }
+                          ],
+                          "inline": false,
+                          "protected": false,
+                          "persistent": true,
+                          "hidden": false,
+                          "clearOnHide": true,
+                          "validate": {
+                              "required": false
+                          },
+                          "type": "selectboxes",
+                          "conditional": {
+                              "show": "",
+                              "when": null,
+                              "eq": ""
+                          },
+                          "lockKey": true,
+                          "autofocus": false
+                      },
+                      {
+                          "lockKey": true,
+                          "properties": {
+                              "": ""
+                          },
+                          "conditional": {
+                              "eq": "",
+                              "when": null,
+                              "show": ""
+                          },
+                          "tags": [],
+                          "type": "textarea",
+                          "validate": {
+                              "custom": "",
+                              "pattern": "",
+                              "maxLength": "",
+                              "minLength": "",
+                              "required": false
+                          },
+                          "clearOnHide": true,
+                          "wysiwyg": false,
+                          "hidden": false,
+                          "persistent": true,
+                          "protected": false,
+                          "defaultValue": "",
+                          "multiple": false,
+                          "rows": 3,
+                          "suffix": "",
+                          "prefix": "",
+                          "placeholder": "",
+                          "key": "M4A9e-distribution",
+                          "label": "c.) How can release and distribution of new cultivars from this breeding program be improved?",
+                          "tableView": true,
+                          "input": true,
+                          "autofocus": false,
+                          "spellcheck": true
+                      }
+                  ],
+                  "type": "fieldset",
+                  "tags": [],
+                  "conditional": {
+                      "show": "",
+                      "when": null,
+                      "eq": ""
+                  },
+                  "properties": {
+                      "": ""
+                  },
+                  "clearOnHide": false,
+                  "hideLabel": true
+              }
+          ],
+          "type": "panel",
+          "breadcrumb": "default",
+          "tags": [],
+          "conditional": {
+              "show": "",
+              "when": null,
+              "eq": ""
+          },
+          "properties": {
+              "": ""
+          },
+          "lockKey": true,
+          "clearOnHide": false,
+          "hideLabel": true
+      },
+      {
+          "input": true,
+          "label": "Submit",
+          "tableView": false,
+          "key": "submit",
+          "size": "md",
+          "leftIcon": "",
+          "rightIcon": "",
+          "block": false,
+          "action": "submit",
+          "disableOnInvalid": false,
+          "theme": "primary",
+          "type": "button",
+          "autofocus": false
+      }
+  ],
+  "revisions": "",
+  "_vid": 0,
+  "access": [
+      {
+          "roles": [
+              "5ab89c910180ad2c116d635e",
+              "5ab89c910180ad75466d635f",
+              "5ab89c910180ad754f6d6360"
+          ],
+          "type": "read_all"
+      }
+  ],
+  "submissionAccess": [],
+  "created": "2018-03-26T07:09:05.612Z",
+  "_id": "5ab89c910180adff9c6d6377",
+  "title": "4. Assessment 9e",
+  "name": "M4A9eAssessment9E",
+  "path": "m4a9eassessment9e",
+  "display": "form",
+  "machineName": "khobsiuatxpwoyk:M4Assessment9E",
+  "project": "5ab89c910180ad282a6d635d",
+  "modified": "2018-03-26T09:39:40.281Z"
+}

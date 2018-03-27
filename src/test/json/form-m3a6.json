@@ -1,0 +1,294 @@
+{
+  "type": "resource",
+  "tags": [
+      "visible"
+  ],
+  "owner": "5ab8be950180ad91236d64fd",
+  "components": [
+      {
+          "lockKey": true,
+          "properties": {
+              "": ""
+          },
+          "conditional": {
+              "eq": "",
+              "when": null,
+              "show": ""
+          },
+          "tags": [],
+          "breadcrumb": "default",
+          "type": "panel",
+          "components": [
+              {
+                  "properties": {
+                      "": ""
+                  },
+                  "conditional": {
+                      "eq": "",
+                      "when": null,
+                      "show": ""
+                  },
+                  "tags": [],
+                  "type": "htmlelement",
+                  "content": "Assessment 6 :Social and organizational capital resources, bi-directional communication",
+                  "className": "",
+                  "attrs": [
+                      {
+                          "attr": "",
+                          "value": ""
+                      }
+                  ],
+                  "tag": "strong",
+                  "input": false,
+                  "key": "M3A6-assessment6Html",
+                  "lockKey": true,
+                  "label": "Content",
+                  "hideLabel": true
+              },
+              {
+                  "lockKey": true,
+                  "properties": {
+                      "": ""
+                  },
+                  "conditional": {
+                      "eq": "",
+                      "when": null,
+                      "show": ""
+                  },
+                  "tags": [],
+                  "type": "select",
+                  "validate": {
+                      "required": true
+                  },
+                  "clearOnHide": true,
+                  "hidden": false,
+                  "persistent": true,
+                  "unique": false,
+                  "protected": false,
+                  "multiple": false,
+                  "template": "<span>{{ item.data['M1-programName'] }}</span>",
+                  "authenticate": false,
+                  "filter": "",
+                  "refreshOn": "",
+                  "defaultValue": "",
+                  "valueProperty": "data.M1-programName",
+                  "dataSrc": "resource",
+                  "data": {
+                      "custom": "",
+                      "resource": "5ab89c910180ad916c6d6364",
+                      "url": "",
+                      "json": "",
+                      "values": [
+                          {
+                              "label": "",
+                              "value": ""
+                          }
+                      ],
+                      "project": "khobsiuatxpwoyk"
+                  },
+                  "placeholder": "",
+                  "key": "M3A6-program",
+                  "label": "Please select your program",
+                  "tableView": true,
+                  "input": true,
+                  "autofocus": false,
+                  "labelPosition": "top",
+                  "searchField": "data.M1-programName__regex"
+              },
+              {
+                  "properties": {
+                      "": ""
+                  },
+                  "conditional": {
+                      "eq": "",
+                      "when": null,
+                      "show": ""
+                  },
+                  "tags": [],
+                  "type": "fieldset",
+                  "components": [
+                      {
+                          "lockKey": true,
+                          "properties": {
+                              "": ""
+                          },
+                          "conditional": {
+                              "eq": "",
+                              "when": null,
+                              "show": ""
+                          },
+                          "tags": [],
+                          "type": "survey",
+                          "validate": {
+                              "customPrivate": false,
+                              "custom": "",
+                              "required": false
+                          },
+                          "clearOnHide": true,
+                          "hidden": false,
+                          "persistent": true,
+                          "protected": false,
+                          "defaultValue": "",
+                          "values": [
+                              {
+                                  "label": "Very high",
+                                  "value": "veryHigh"
+                              },
+                              {
+                                  "label": "High",
+                                  "value": "high"
+                              },
+                              {
+                                  "label": "Moderate",
+                                  "value": "moderate"
+                              },
+                              {
+                                  "label": "Low",
+                                  "value": "low"
+                              },
+                              {
+                                  "label": "Not applicable",
+                                  "value": "notApplicable"
+                              },
+                              {
+                                  "label": "Not sure",
+                                  "value": "notSure"
+                              },
+                              {
+                                  "label": "None",
+                                  "value": "none"
+                              }
+                          ],
+                          "questions": [
+                              {
+                                  "label": "1. Rate the effectiveness that co-ops, farmers' groups and other similar organizations have on crop improvement",
+                                  "value": "1RateTheEffectivenessThatCoOpsFarmersGroupsAndOtherSimilarOrganizationsHaveOnCropImprovement"
+                              },
+                              {
+                                  "label": "2. Rate the effectiveness of procedures for farmers/stakeholders to communicate with the government about their needs with respect to crop improvement",
+                                  "value": "2RateTheEffectivenessOfProceduresForFarmersStakeholdersToCommunicateWithTheGovernmentAboutTheirNeedsWithRespectToCropImprovement"
+                              },
+                              {
+                                  "label": "3. Rate the effectiveness of extension or other services that provide education and training to farmers to become seed distribution entrepreneurs",
+                                  "value": "3RateTheEffectivenessOfExtensionOrOtherServicesThatProvideEducationAndTrainingToFarmersToBecomeSeedDistributionEntrepreneurs"
+                              },
+                              {
+                                  "label": "4. Rate the effectiveness of extension services' or other outreach services' ability to provide relevant information to farmers about performance of new crop cultivars in a timely manner",
+                                  "value": "4RateTheEffectivenessOfExtensionServicesOrOtherOutreachServicesAbilityToProvideRelevantInformationToFarmersAboutPerformanceOfNewCropCultivarsInATimelyManner"
+                              },
+                              {
+                                  "label": "5. Rate the effectiveness of extension or other service providers with respect to providing information about credit to farmers for seed and input purchases",
+                                  "value": "5RateTheEffectivenessOfExtensionOrOtherServiceProvidersWithRespectToProvidingInformationAboutCreditToFarmersForSeedAndInputPurchases"
+                              },
+                              {
+                                  "label": "6. Rate the extent to which extension or other service providers inform farmers about cropping systems and optimal use of new or improved cultivars",
+                                  "value": "6RateTheExtentToWhichExtensionOrOtherServiceProvidersInformFarmersAboutCroppingSystemsAndOptimalUseOfNewOrImprovedCultivars"
+                              },
+                              {
+                                  "label": "7. Rate the effectiveness of extension or other service providers to inform farmers about the marketing of farm commodities from this crop",
+                                  "value": "7RateTheEffectivenessOfExtensionOrOtherServiceProvidersToInformFarmersAboutTheMarketingOfFarmCommoditiesFromThisCrop"
+                              },
+                              {
+                                  "label": "8. Rate the effectiveness of this center and this breeding program to develop and distribute new cultivars of this crop",
+                                  "value": "8RateTheEffectivenessOfThisCenterAndThisBreedingProgramToDevelopAndDistributeNewCultivarsOfThisCrop"
+                              }
+                          ],
+                          "key": "M3A6-crop",
+                          "label": "For the following questions, consider your crop in the country and region(s) for which you are breeding new cultivars",
+                          "tableView": true,
+                          "input": true
+                      },
+                      {
+                          "input": true,
+                          "tableView": true,
+                          "label": "9. In a summary, please describe how the social, organizational, and capital resources benefit farmers and breeding programs in your country/region",
+                          "key": "M3A6-social",
+                          "placeholder": "",
+                          "prefix": "",
+                          "suffix": "",
+                          "rows": 3,
+                          "multiple": false,
+                          "defaultValue": "",
+                          "protected": false,
+                          "persistent": true,
+                          "hidden": false,
+                          "wysiwyg": false,
+                          "clearOnHide": true,
+                          "validate": {
+                              "required": false,
+                              "minLength": "",
+                              "maxLength": "",
+                              "pattern": "",
+                              "custom": ""
+                          },
+                          "type": "textarea",
+                          "tags": [],
+                          "conditional": {
+                              "show": "",
+                              "when": null,
+                              "eq": ""
+                          },
+                          "properties": {
+                              "": ""
+                          },
+                          "lockKey": true,
+                          "autofocus": false,
+                          "spellcheck": true
+                      }
+                  ],
+                  "legend": "1.Social and organizational capital resources, bi-directional communication",
+                  "tableView": true,
+                  "input": false,
+                  "key": "M3A6-assessment6Fieldset",
+                  "lockKey": true,
+                  "clearOnHide": false,
+                  "hideLabel": true
+              }
+          ],
+          "tableView": true,
+          "theme": "primary",
+          "title": "Module  3 : Scope and intensity of effort required in an ongoing PB program or a new program to meet the needs for new planting materials in the target production areas for the crop/crop group being considered",
+          "input": false,
+          "key": "M3A6-assessment6",
+          "clearOnHide": false,
+          "hideLabel": true
+      },
+      {
+          "type": "button",
+          "theme": "primary",
+          "disableOnInvalid": false,
+          "action": "submit",
+          "block": false,
+          "rightIcon": "",
+          "leftIcon": "",
+          "size": "md",
+          "key": "submit",
+          "tableView": false,
+          "label": "Submit",
+          "input": true,
+          "autofocus": false
+      }
+  ],
+  "revisions": "",
+  "_vid": 0,
+  "access": [
+      {
+          "roles": [
+              "5ab89c910180ad2c116d635e",
+              "5ab89c910180ad75466d635f",
+              "5ab89c910180ad754f6d6360"
+          ],
+          "type": "read_all"
+      }
+  ],
+  "submissionAccess": [],
+  "created": "2018-03-26T07:09:05.512Z",
+  "_id": "5ab89c910180ad05be6d636f",
+  "title": "3. Assessment 6",
+  "name": "M3A6Assessment6",
+  "path": "m3a6assessment6",
+  "display": "form",
+  "machineName": "khobsiuatxpwoyk:M3Assessment6",
+  "project": "5ab89c910180ad282a6d635d",
+  "modified": "2018-03-26T09:49:12.594Z"
+}

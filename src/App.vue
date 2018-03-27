@@ -1,17 +1,12 @@
 <template>
   <div id="app" class="container">
-    <AutoReport />
+    <report />
   </div>
 </template>
 
 <script>
-import { AutoReport } from '@/views/reports'
-
 export default {
-  name: 'app',
-  components: {
-    AutoReport
-  }
+  name: 'app'
 }
 </script>
 
